@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(64, 176, 64);
+}
+
+#inputText{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    font-size: 16px;
+    vertical-align: middle; /*Bu koda bak*/
+    border: 2px solid yellowgreen;
+    border-radius: 1rem;
+    color: rgb(84, 116, 22);
+    font-weight: 500;
+
+}
+
+#addToDo{
+    height: 2.5rem;
+    width: 5rem;
+    vertical-align: middle;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid rgb(0, 255, 102);
+    border-radius: 10px 0 10px 0;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#addToDo:active{
+    background-color: blue;
+    border: 2px solid  rgb(72, 160, 254) ;
+
+}
+
+#clearToDo{
+    height: 2.5rem;
+    width: 5rem;
+    vertical-align: middle;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid rgb(255, 88, 88);
+    border-radius: 0 10px 0px 10px;
+    background-color: rgb(181, 8, 8);
+    color: white;
+    cursor: pointer;
+}
+
+#clearToDo:active{
+    background-color: black;
+    border: 2px solid rgb(98, 98, 98);
+}
+
+
+.paragraph-styling{
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(84, 116, 22);
+    text-transform: capitalize;
+   
+}
+
+
+.to-dos{
+    margin-top: 25px;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.heading{
+    color: #b02c2c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#addHead{
+    height: 2.5rem;
+    width: 6rem;
+    vertical-align: middle;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid rgb(193, 83, 15);
+    border-radius: 10px 0 10px 0;
+    background-color: rgb(128, 49, 0);
+    color: white;
+    cursor: pointer;
+}
+
+#addHead:active{
+    background-color: yellowgreen;
+    border: 2px solid  rgb(72, 254, 160) ;
+
+}
